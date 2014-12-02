@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = { 'John Engelhart' => 'John Engelhart' }
   s.homepage     = 'https://github.com/johnezang/JSONKit'
   s.license      = 'BSD / Apache License, Version 2.0'
-  s.source       = { :git => 'https://github.com/salah-ghanim/JSONKit.git', :tag => "#{s.version}" }
+  s.source       = { :git => 'https://github.com/salah-ghanim/JSONKit.git', :tag => "v#{s.version}" }
   s.source_files =  'JSONKit.{h,m}'
   s.requires_arc = false
   s.ios.deployment_target = '5.0'
